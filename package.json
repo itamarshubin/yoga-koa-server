@@ -1,0 +1,26 @@
+{
+  "name": "koa-with-subs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.8.0",
+    "graphql-sse": "^2.3.0",
+    "graphql-yoga": "^4.0.4",
+    "koa": "^2.14.2",
+    "koa-mount": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.9",
+    "@types/koa-mount": "^4.0.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
